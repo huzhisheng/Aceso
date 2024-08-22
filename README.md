@@ -14,6 +14,8 @@ We recommend running Aceso using c6220 instances on [CloudLab](https://www.cloud
 
 We have reserved 6 c6220 nodes and 14 r320 nodes on CloudLab **from Aug 19th to Sep 9th** for AE, with the first 5 c6220 nodes as MNs and the remaining as CNs.
 
+Please coordinate among all AE reviewers to ensure that only one person uses the cluster at a time, or the scripts may fail to run.
+
 * You can simply use the ***provided account*** to use our reserved c6220&r320 nodes on CloudLab.
   * We have provided our account (username: `hzs`) on the artifact submission site. Contact us if you don't know the password.
   * Log into the provided account on CloudLab, then please submit the SSH public key of your personal computer via `hzs`|-->`Manage SSH keys`.
