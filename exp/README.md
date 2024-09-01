@@ -82,7 +82,9 @@ We use [FUSEE](https://github.com/dmemsys/FUSEE) (FAST'23) as the baseline in ou
 
 * In the c6220&r320 cluster, the node with ip `10.10.1.1` (with host name `node-0`) can directly establish SSH connections to other nodes. Thus we define it as the **master** node and run our scripts on it. Each script can reproduce the corresponding results and figures in our paper.
 
-    You can run all the scripts with a single batch script on the master node using the following command:
+    Note that when using these scripts, please skip all the steps in previous **Step-3 Try Aceso** (*e.g.*, setting hugepages, running memcached on the MNs, and starting MN servers) and run the script directly, as these steps are already included.
+
+*   You can run all the scripts with a single batch script on the master node using the following command:
 
     ```shell
     # On the ip `10.10.1.1` node only
