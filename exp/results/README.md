@@ -1,1 +1,0 @@
-This folder contains the experiment results.
